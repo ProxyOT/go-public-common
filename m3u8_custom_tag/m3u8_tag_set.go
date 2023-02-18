@@ -17,3 +17,12 @@ func GetPlaylistTagSet() []m3u8.CustomDecoder {
 		&MediaIdentifierTag{},
 	}
 }
+
+func GetFullTagSet() []m3u8.CustomDecoder {
+	return []m3u8.CustomDecoder{
+		&MediaTotalSizeTag{},
+		&MediaIdentifierTag{},
+		&MediaSourceTag{},
+		&MediaSocialMetaTag{},
+	}
+}
