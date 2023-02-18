@@ -8,6 +8,7 @@ func GetMasterTagSet() []m3u8.CustomDecoder {
 		&MediaIdentifierTag{},
 		&MediaSourceTag{},
 		&MediaSocialMetaTag{},
+		&MediaCoverTag{},
 	}
 }
 
@@ -24,5 +25,6 @@ func GetFullTagSet() []m3u8.CustomDecoder {
 		&MediaIdentifierTag{},
 		&MediaSourceTag{},
 		&MediaSocialMetaTag{},
+		&MediaCoverTag{},
 	}
 }
